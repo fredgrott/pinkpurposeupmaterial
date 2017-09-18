@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<!--
+     PinkPurpose
+     Fred Grott
+     http://www.uplabs.com/fred.grott
+
+-->
+<html lang="en">
+    <head>
+          <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0 shrink-to-fit=no">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="msapplication-tap-highlight" content="no">
+          <meta name="description" content="PinkPurpose is fully loaded with all the features of a multipurpose site including portoflios, products, services, etc.">
+
+          <title>PageTemplagte</title>
+
+          <!-- Favicons for Android, iOS, MS-mobile, Desktop -->
+          <link rel="icon" sizes="192x192" href="assets/images/favicons/fg-favicon-192x192.png">
+          <meta name="msapplication-TileColor" content="#ffffff">
+          <meta name="msapplication-TileImage" content="assets/images/favicons/fg-favicon-144x144.png">
+          <link rel="shortcut icon" href="assets/images/favicons/fg-favicon-72x72.png">
+          <link rel="apple-touch-icon"  href="assets/images/favicons/fg-favicon-72x72.png">
+          <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/fg-favicon-72x72.png">
+          <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicons/fg-favicon-144x144.png">
+          <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/fg-favicon-180x180.png">
+
+          <!-- CSS, CSS framework first than fonts than custom -->
+          <link href="assets/css/fonts.css" type="text/css" rel="stylesheet">
+          <link href="assets/css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection">
+          <link href="assets/css/material-icons.css" rel="stylesheet" type="text/css">
+          <link href="assets/css/font-awesome.css" rel="stylesheet" type="text/css">
+          <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+          <link href="assets/css/custom.css" type="text/css" rel="stylesheet">
+
+          <!-- to prevent fout when using lettering.js -->
+          <script src="assets/js/jquery-3.2.1.js"></script>
+          <script src="assets/js/materialize.js"></script>
+          <script src="assets/js/jquery.lettering.js"></script>
+          <!-- Specific jquery plugins to a page go here-->
+
+          <script src="assets/js/init.js"></script>
+          <script src="assets/js/custom.js"></script>
+
+
+
+          <!-- Facebook, Twitter, and few other popular social platforms
+               require Schema.org, Open Graph, or other markup so that
+               when sharing the url the correct images and site url
+               get posted right during the share -->
+
+          <!-- Schema.org markup goes here -->
+
+          <!-- Open Graph markup goes here -->
+
+          <!-- Twitter Card markup goes here -->
+    </head>
+    <body>
+      <header class="site-header">
+        <!-- dropdown defintions -->
+        <ul id="about" class="dropdown-content">
+          <li><a href="aboutus.html">AboutUs</a></li>
+          <li><a href="team.html">Team</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contactus.html">ContactUs</a></li>
+        </ul>
+        <!-- nav-bar -->
+        <nav class="">
+          <div class="nav-wrapper">
+            <div class="nav-row">
+            <div class="our-logo-wrapper">
+
+                <a href="index.html" class=""><img src="assets/images/materialized-logo.png"></a>
+
+            </div>
+            <ul class="mysearch hide-on-med-and-down">
+              <li>
+             <form >
+              <div class="input-field">
+                <i class="material-icons prefix">search</i>
+                <input id="search" type="search" class="mysearch-input-box" required placeholder="Explore">
+                <i class="material-icons">close</i>
+              </div>
+             </form>
+           </li>
+           </ul>
+           <ul class="our-site-menu">
+             <li><a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a></li>
+             <li><a class="" href="account.html"><i class="material-icons">account_box</i></a></li>
+             <li><a class="" href="shoppingcart.html"><i class="fa fa-1x fa-shopping-cart"></i>4</a></li>
+             <!-- Through your app stuff icon gets changed per login status:
+                       fa fa-unlock for logged-in
+                       fa fa-lock for not logged in
+                     -->
+              <li><a class="" href="login.html"><i class="fa fa-1x fa-unlock"></i></a></li>
+
+           </ul>
+         </div>
+          </div>
+        </nav>
+        <nav class="hide-on-med-and-down">
+
+          <div class="nav-wrapper">
+            <div class="nav-row">
+            <ul class="our-bottom-menu ">
+              <li class=""><a class="dropdown-button" href="#!" data-activates="about">About<i class="fa fa-angle-down right"></i></a></li>
+              <li class=""><a  href="products.html">Products</a></li>
+              <li class=""><a  href="services.html">Services</a></li>
+              <li class=""><a  href="features.html">Features</a></li>
+              <li class=""><a  href="pages.html">Pages</a></li>
+              <li class=""><a  href="credits.html">Credits</a></li>
+              <li class=""><a  href="docs.html">Docs</a></li>
+            </ul>
+          </div>
+          </div>
+        </nav>
+        <!-- Side Nav Defintions-->
+        <ul class="side-nav mobile-site-menu" id="mobile-demo">
+          <li class="no-padding">
+            <ul class="collapsible collapsible-accordion">
+              <li>
+                <a class="collapsible-header">About<i class="material-icons">arrow_drop_down</i></a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="aboutus.html">AboutUs</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="news.html">News</a></li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                  </ul>
+                </div>
+               </li>
+              </ul>
+            </li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="pages.html">Pages</a></li>
+            <li><a href="credits.html">Credits</a></li>
+            <li><a href="docs.html">Docs</a></li>
+        </ul>
+      </header>
+        <!-- main content start -->
+        <main>
+          <div class="breadcrumbs-wrapper">
+            <div class="mobile-search-wrapper hide-on-large-only">
+              <form >
+               <div class="input-field">
+              <i class="material-icons prefix">search</i>
+              <input type="search" id="search" class="mobile-search-input z-depth-2" required placeholder="Explore Materialize">
+              <i class="material-icons">close</i>
+            </div>
+          </form>
+            </div>
+            <div class="container">
+              <!-- breadcrumbs -->
+              <h4 class="breadcrumb-title">Page Template</h4>
+              <div class="row">
+                <div class="col s12">
+                  <a href="#!" class="breadcrumb">First</a>
+                  <a href="#!" class="breadcrumb">Second</a>
+                  <a href="#!" class="breadcrumb">Third</a>
+                </div>
+              </div>
+              <!-- search-results -->
+              <div class="row">
+                <div class="col s12">
+                  <div class="divider"></div>
+                  <div class="search-results"></div>
+                  <div class="divider"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Page Content Start-->
+
+          <!-- Page Content End -->
+        </main>
+        <!-- main content end -->
+        <!-- Footer Start -->
+        <footer class="page-footer">
+             <div class="container">
+               <div class="row">
+                 <!-- Newsletter Form -->
+                 <h5 class="lede">Newsletter SignUp</h5>
+                 <form class="col s12 newsletter-wrapper">
+
+                   <div class="row">
+                     <div class="input-field col s9">
+                        <input id="email" type="email" class="validate" placeholder="Email Address" autocomplete="email">
+                     </div>
+                     <div class="input-field col s3">
+                       <button type="submit" class="btn waves-effect waves-light"><i class="fa fa-send"></i></button>
+                     </div>
+                   </div>
+
+                 </form>
+               </div>
+               <!--
+                    We do not do a grid of 2 rows with 3 cols each as we
+                    want each blockquote to flow at bottom of each section
+                    in the mobile variant
+               -->
+               <div class="row">
+                 <div class="col l4 s12">
+                   <h5 class="">Our Latest</h5>
+                   <a href="portfolioitem.html"><img class="responsive-img" src="assets/images/portfolios/portfolio6.jpg"/></a>
+                   <br/>
+                   <br/>
+                   <h5 class="">Clients Say</h5>
+                   <blockquote>
+                     <p class="quote">
+                     Sally recommends
+                   </p>
+                   <cite class="author-info">
+                     - Name Surname,<br>Managing Director at <a href="#">Some Company</a>
+                   </cite>
+                   </blockquote>
+
+                 </div>
+                 <div class="col l4 s12">
+                   <h5 class="">Company</h5>
+                   <ul>
+                     <li><a href="blog.html">Blog</a></li>
+                     <li><a href="news.html">News</a></li>
+                     <li><a href="events.html">Events</a></li>
+                     <li><a href="faq.html">FAQ</a></li>
+                     <li><a href="careers.html">Careers</a></li>
+                     <li><a href="terms.html">Terms</a></li>
+                     <li><a href="privacy.html">Privacy</a></li>
+                     <li><a href="cookies.html">Cookies</a></li>
+                   </ul>
+                   <br/>
+                   <h5>Latest News</h5>
+                   <blockquote>
+                     <p class="quote">
+                     Ruby Dev Opening...<a href="#">Read More</a>
+                   </p>
+                   <cite class="author-info">
+                     - Name Surname,<br>Managing Director at <a href="#">Some Company</a>
+                   </cite>
+                   </blockquote>
+                 </div>
+                 <div class="col l4 s12">
+                   <h5 class="">Support</h5>
+                   <p>
+                      CompanyName<br/>
+                      125 Your Street<br/>
+                      Westville, IN 46391<br/>
+                      USA<br/>
+                      <i class="fa fa-phone"></i>1-219-456-0988<br/>
+                      <i class="fa fa-fax"></i>1-219-456-0987<br/>
+                      <i class="fa fa-envelope-o"></i> <a href="mailto:email@company.com">email@company.com</a>
+                    </p>
+                    <br/>
+                    <br/>
+                    <h5>Newest Product</h5>
+                    <blockquote>
+                      <p class="quote">
+                      New Prodduct ZZZ...<a href="#">Read More</a>
+                    </p>
+                    <cite class="author-info">
+                      - Name Surname,<br>Managing Director at <a href="#">Some Company</a>
+                    </cite>
+                    </blockquote>
+                 </div>
+               </div>
+             </div>
+             <div class="footer-copyright">
+               <!-- links as non list block to conserve spacing -->
+               <div class="container mycopyright">
+                 &copy;2017 Fred Grott
+                 <a class="right" href="#!" target="_blank"><i class="fa fa-2x fa-facebook-official "></i></a>
+                 <a class="right" href="#!" target="_blank"><i class="fa fa-2x  fa-google-plus-square "></i></a>
+                 <a class="right" href="#!" target="_blank"><i class="fa  fa-2x fa-twitter-square "></i></a>
+                 <a class="right" href="sitemap.html"><i class="fa fa-2x fa-sitemap"></i></a>
+                 <a class="right" href="#!"><i class="fa fa-2x fa-slack"></i></a>
+                 <a class="right" href="#!"><i class="fa fa-2x fa-envelope"></i></a>
+               </div>
+             </div>
+           </footer>
+        <!-- Footer End -->
+      </body>
+  </html>

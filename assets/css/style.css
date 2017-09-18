@@ -1,0 +1,725 @@
+/*
+   PinkPurpose
+   Fred Grott
+   http://wwww.uplabs.com/fred.grott
+
+   0 Globals
+*/
+
+/* 0 Globals */
+.nav-row{
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+}
+.nav-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+nav{
+  background-color: #880e4f;
+  
+
+}
+
+.our-logo-wrapper{
+  float: right;
+  padding-right: 15px;
+}
+.mysearch input.mysearch-input-box[type=search]{
+  text-align: left;
+  line-height: normal;
+}
+
+.mysearch{
+    max-width: 724px;
+    min-width: 524px;
+    width: 100%;
+    margin: 0 auto;
+    width: calc(100% - 45%);
+    height: 40px;
+    display: inline-block;
+    margin-right: 80px;
+    position: relative;
+    margin-left: 118px;
+    margin-top: 6px;
+}
+.mysearch i{
+    position: absolute;
+    top: 0;
+    font-size: 24px;
+    top: 6px;
+    right: 24px;
+    line-height: 32px !important;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+}
+.mysearch input.mysearch-input-box{
+  display: block;
+    padding: 8px 72px 8px 8px;
+    min-width: 600px;
+    background: rgba(255,255,255,0.3);
+    height: 24px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border: none;
+    font-size: 16px;
+    appearance: textfield;
+    font-weight: 400;
+    outline: none;
+    border-radius: 3px;
+
+}
+.mysearch ::placeholder{
+  color: #880e4f;
+}
+.mysearch ::-webkit-input-placeholder{
+  color: #880e4f;
+}
+
+.mysearch ::-moz-placeholder  {
+  color: #880e4f;
+}
+.mysearch :-ms-input-placeholder {
+  color: #880e4f;
+}
+.mysearch input[type=search]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #f50057;
+  -webkit-box-shadow: 0 1px 0 0 #f50057;
+          box-shadow: 0 1px 0 0 #f50057;
+}
+.mysearch .prefix{
+
+  color: #880e4f;
+}
+.mysearch .prefix.active{
+  color: #f50057;
+}
+
+.our-bottom-menu{
+  float: left;
+  margin-left: 20%;
+}
+.our-site-menu{
+  float: left;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper input.mobile-search-input[type=search]{
+  text-align: left;
+  line-height: normal;
+}
+.breadcrumbs-wrapper{
+  background-color: #fce4ec;
+}
+.breadcrumb-title{
+  font-family: "Roboto Slab", serif;
+}
+
+.breadcrumbs-wrapper .mobile-search-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    height: 40px;
+    display: inline-block;
+    position: relative;
+
+
+}
+.breadcrumbs-wrapper .mobile-search-wrapper i{
+    position: absolute;
+    top: 0px;
+    font-size: 24px;
+    top: 6px;
+    right: 24px;
+    line-height: 32px !important;
+    -webkit-transition: color 200ms ease;
+    transition: color 200ms ease;
+
+}
+.breadcrumbs-wrapper .mobile-search-wrapper input.mobile-search-input {
+    display: block;
+    padding: 8px 72px 8px 8px;
+    width: 100%;
+    background: rgba(255,255,255,0.3);
+    height: 24px;
+    -webkit-transition: all 200ms ease;
+    transition: all 200ms ease;
+    border: none;
+    font-size: 16px;
+    appearance: textfield;
+    font-weight: 400;
+    outline: none;
+    border-radius: 3px;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper ::placeholder{
+  color: #880e4f;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper ::-webkit-input-placeholder{
+  color: #880e4f;
+}
+
+.breadcrumbs-wrapper .mobile-search-wrapper ::-moz-placeholder  {
+  color: #880e4f;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper :-ms-input-placeholder {
+  color: #880e4f;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper input[type=search]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #f50057;
+  -webkit-box-shadow: 0 1px 0 0 #f50057;
+          box-shadow: 0 1px 0 0 #f50057;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper i.prefix{
+
+  color: #880e4f;
+}
+.breadcrumbs-wrapper .mobile-search-wrapper i.prefix.active{
+  color: #f50057;
+}
+
+
+.breadcrumbs-wrapper .breadcrumb{
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.7);
+
+}
+.breadcrumbs-wrapper i,
+.breadcrumbs-wrapper .breadcrumb [class^="mdi-"], .breadcrumbs-wrapper .breadcrumb [class*="mdi-"],
+.breadcrumbs-wrapper .breadcrumb i.material-icons {
+  display: inline-block;
+  float: left;
+  font-size: 24px;
+}
+.breadcrumbs-wrapper .breadcrumb:before {
+  content: '\E5CC';
+  color: #3f515b;
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 25px;
+  margin: 0 10px 0 8px;
+  -webkit-font-smoothing: antialiased;
+}
+.breadcrumbs-wrapper .breadcrumb:first-child:before {
+  display: none;
+}
+.breadcrumbs-wrapper .breadcrumb:last-child {
+  color: #aeaeae;
+}
+
+
+.our-site-bottom-menu-wrapper{
+  float: left;
+  margin-left: 20%;
+}
+
+
+html{
+  font-family: 'Roboto', sans-serif;
+  font-weight: normal;
+}
+
+
+
+
+.global-site-menu{
+  position: relative;
+  margin-left: 72%;
+}
+
+
+
+/*
+   Setting the site-header dropdown-content
+   background color
+*/
+.site-header .dropdown-content{
+  background-color: #fce4ec;
+}
+
+.site-header .dropdown-content li:hover, .site-header .dropdown-content li.active, .site-header .dropdown-content li.selected {
+  background-color: #f8bbd0;
+  color:  #880e4f;
+}
+.site-header .dropdown-content li:hover a, .site-header .dropdown-content li.active a, .site-header .dropdown-content li.selected a{
+  background-color: #f8bbd0;
+  color:  #880e4f;
+}
+.site-header .dropdown-content li.active.selected {
+  background-color: #f8bbd0;
+  color:  #880e4f;
+}
+/*
+   Setting the site-header dropdown-content link colors
+*/
+.site-header .dropdown-content li a{
+  color: #ad1457;
+}
+.site-header .dropdown-content li a:visited{
+  color:  #880e4f;
+}
+
+.bottom-menu-bar li a:hover{
+  background-color: #ad1457;
+}
+.bottom-menu-bar li.active{
+  background-color: #ad1457;
+}
+/*
+   Does not properly float to right edge
+   so hack it have it center and made sure
+   to use percentage dimens instead of px
+   or rems
+*/
+.bottom-menu-bar{
+  position: relative;
+  margin-left: 25%;
+
+}
+.brand-logo{
+  left: 45%;
+}
+@media only screen and (max-width: 992px) {
+  nav .brand-logo {
+    left: 45%;
+    -webkit-transform: translateX(-45%);
+            transform: translateX(-45%);
+  }
+}
+
+/*
+   Setting the mobile-site-menu colors
+   and styling
+*/
+.mobile-site-menu{
+  background-color: #fce4ec;
+}
+.mobile-site-menu .collapsible-header{
+  background-color: #fce4ec;
+}
+.mobile-site-menu .collapsible a.active{
+  background-color: #f48fb1;
+}
+.mobile-site-menu .collapsible-body{
+  background-color: #f8bbd0;
+}
+.mobile-site-menu .collapsible-body > ul:not(.collapsible) > li.active{
+  background-color: #f48fb1;
+}
+.mobile-site-menu .collapsible-body > ul:not(.collapsible) > li.active a{
+  color: #880e4f;
+}
+.mobile-site-menu  li.active{
+
+}
+.mobile-site-menu .input-field i.prefix{
+  color: #880e4f;
+}
+.mobile-site-menu .input-field input{
+  background-color: rgba(51, 51, 51, 0.14);
+}
+.mobile-site-menu .input-field input[type=search]:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #f50057;
+  -webkit-box-shadow: 0 1px 0 0 #f50057;
+          box-shadow: 0 1px 0 0 #f50057;
+}
+.mobile-site-menu .input-field input ::placeholder{
+  color: #880e4f;
+}
+.mobile-site-menu .input-field input::-webkit-input-placeholder{
+  color: #880e4f;
+}
+.mobile-site-menu .input-field input ::-moz-placeholder  {
+  color: #880e4f;
+}
+.mobile-site-menu .input-field input :-ms-input-placeholder {
+  color: #880e4f;
+}
+.mobile-site-menu .input-field input{
+  text-align: left;
+  line-height: normal;
+}
+
+
+.section-title{
+  font-family: "Roboto Slab", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+blockquote{
+  border-left: 5px solid #e91e63;
+
+}
+.quote{
+  font-family: "Roboto Mono", monospace;
+  font-style: italic;
+  font-weight: 400;
+}
+.author-info{
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+}
+code,
+kbd,
+pre,
+samp {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1em;
+  font-weight: 500;
+}
+.card{
+  background-color: rgba(252, 228, 236, 0.35);
+}
+.card-panel{
+  background-color: rgba(252, 228, 236, 0.35);
+}
+.card-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.card .card-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.card .card-image .card-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.card .card-content .card-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.card-panel .card-image .card-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+.card-panel .card-content .card-title{
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+}
+/*
+   Setting the pagination colors
+*/
+.pagination li.active a {
+  color: #880e4f;
+}
+.pagination li.active {
+  background-color: #f48fb1;
+}
+
+.divider{
+  height: 2px;
+  background-color: #ad1457;
+}
+
+/*
+   Setting the site btn colors
+*/
+.btn{
+  background-color: #f48fb1;
+  color: #000000;
+}
+.btn:hover{
+  background-color: #f48fb1;
+  color: #000000;
+}
+.btn:visited{
+  background-color: #f48fb1;
+  color: #000000;
+}
+
+.portfolio-project-name{
+  font-weight: 500;
+}
+
+/*
+  this is changing the browser autofill stylinng not the
+  form autocomplete
+
+  basically tells the browser to color the choices black
+  when fills the input box with a user autofill choice
+*/
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus{
+  border: 1px solid black;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #000 inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
+
+/*
+   Setting the site-breadcrumbs colors
+*/
+.site-breadcrumbs .breadcrumb{
+  color: #880e4f;
+}
+.site-breadcrumbs .breadcrumb:last-child {
+  color: #f50057;
+}
+.site-breadcrumbs .breadcrumb:before{
+  color: #f06292;
+
+}
+
+.page-title{
+  font-family: "Roboto Slab", serif;
+  font-style: normal;
+  font-weight: 700;
+}
+/*
+   Site Form Styles
+
+   since using a form wrapper inside a card, it reduces
+   the amount of positioning of labels, icons, and input boxxes
+   as we have the extra content padding that a card adds to the
+   left and right margins.
+*/
+/*
+  MSIE work-around for placeholders
+*/
+.site-form-wrapper{
+  text-align: left;
+  line-height: normal;
+}
+.site-form-wrapper i.prefix{
+  color: #880e4f;
+}
+.site-form-wrapper ::placeholder{
+  color: #880e4f;
+}
+.site-form-wrapper ::-webkit-input-placeholder{
+  color: #880e4f;
+}
+.site-form-wrapper ::-moz-placeholder  {
+  color: #880e4f;
+}
+.site-form-wrapper :-ms-input-placeholder {
+  color: #880e4f;
+}
+.site-form-wrapper input:not(.browser-default):focus:not([readonly]), textarea:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #f50057;
+  -webkit-box-shadow: 0 1px 0 0 #f50057;
+          box-shadow: 0 1px 0 0 #f50057;
+}
+.site-form-wrapper .input-field label{
+  color: #880e4f;
+}
+.site-form-wrapper i.prefix.active{
+  color: #f50057;
+}
+.site-form-wrapper  input:not(.browser-default):focus:not([readonly]) + label, textarea:not(.browser-default):focus:not([readonly]) + label{
+  color: #f50057;
+}
+.site-form-wrapper input[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:after {
+  background-color: #f50057;
+}
+.site-form-wrapper input[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+  border: 2px solid #880e4f;
+}
+
+.site-form-wrapper .dropdown-content{
+  background-color: #fce4ec;
+}
+
+.site-form-wrapper .dropdown-content li:hover, .site-header .dropdown-content li.active, .site-header .dropdown-content li.selected {
+  background-color: #f8bbd0;
+  color:  #880e4f;
+}
+.site-form-wrapper .dropdown-content li:hover a, .site-header .dropdown-content li.active a, .site-header .dropdown-content li.selected a{
+  background-color: #f8bbd0;
+  color:  #880e4f;
+}
+.site-form-wrapper .dropdown-content li.active.selected {
+  background-color: #f8bbd0;
+  color:  #880e4f;
+}
+
+/*
+   Site page-footer and fotter-copyright stylings
+*/
+.page-footer{
+  background-color: #880e4f;
+}
+
+/*
+  MSIE placeholder work=around
+*/
+.page-footer .newsletter-wrapper{
+  text-align: left;
+  line-height: normal;
+}
+.page-foooter .newsletter-wrapper ::placeholder{
+  color: #f06292;
+}
+.page-footer .newsletter-wrapper ::-webkit-input-placeholder{
+  color: #f06292;
+}
+.page-footer .newsletter-wrapper ::-moz-placeholder  {
+  color: #f06292;
+}
+.page-footer .newsletter-wrapper :-ms-input-placeholder {
+  color: #f06292;
+}
+.page-footer .newsletter-wrapper input{
+  background-color: rgba(51, 51, 51, 0.34);
+}
+.page-footer .newsletter-wrapper input:focus{
+  background-color: #f8bbd0;
+}
+.page-footer .newsletter-wrapper input:not(.browser-default):focus:not([readonly]){
+  border-bottom: 1px solid #f50057;
+  -webkit-box-shadow: 0 1px 0 0 #f50057;
+          box-shadow: 0 1px 0 0 #f50057;
+}
+.page-footer .newsletter-wrapper input{
+  border-bottom: 1px solid #880e4f;
+  -webkit-box-shadow: 0 1px 0 0 #880e4f;
+          box-shadow: 0 1px 0 0 #880e4f;
+}
+.page-footer .newsletter-wrapper button.btn{
+  background-color: #f06292;
+  color: #880e4f;
+}
+.page-footer .footer-copyright{
+  background-color: rgba(51, 51, 51, 0.54);
+  font-style: normal;
+  font-family: "Roboto Mono", monospace;
+  font-weight: 700;
+}
+.page-footer .footer-copyright .mycopyright i{
+  color: #ffffff;
+}
+
+
+/*
+   faq specific styling
+*/
+.faq-question{
+  font-weight: 700;
+}
+.faq-answer{
+  font-style: italic;
+}
+
+/*
+   news specific styling
+*/
+.news-caption{
+   font-weight: bold;
+}
+.news-date{
+   font-family: "Roboto Mono", monospace;
+   font-style: normal;
+   font-weight: 400;
+}
+.news-intro{
+  font-style: italic;
+}
+
+/*
+   portfolio specific styling
+*/
+
+.portfolio-project-name{
+
+}
+
+/*
+   pricing specific styling
+*/
+.pricing-plan-title{
+
+}
+.pricing-plan-features{
+
+}
+.pricing-plan-price{
+
+}
+
+/*
+  blog specific stylings
+*/
+
+.recentposts{
+  font-weight: 300;
+}
+.blogcats{
+  font-weight: 300;
+}
+.blogarchive{
+  font-weight: 300;
+}
+.blogpost{
+   font-weight: bold;
+}
+.blogpostinfo{
+   font-family: "Roboto Mono", monospace;
+   font-weight: 400;
+   font-style: normal;
+}
+.blogpostimageheader{
+
+}
+.blogpostcontent{
+
+}
+.blogpostcommentauthor{
+
+}
+
+/*
+   blogposts specific styling
+*/
+.blogpostdate{
+  background-color: #880e4f;
+  color: #ffffff;
+}
+.blogpostdate .btn{
+  background-color: #f50057;
+  color: #ffffff;
+
+}
+
+/*
+  eveents specific styling
+*/
+
+.event-date{
+  font-family: "Roboto Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  border-left: 5px solid #e91e63;
+}
+.evvent-venue{
+
+}
+.event-price{
+
+}
